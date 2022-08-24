@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+	
+		<!-- Datasource Details -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/HibernateTables</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">student</property>
+		
+		<!-- Hibernate Property -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+		
+		<!-- Connection Pool Property -->
+		<property name="hibernate.c3p0.min_size">50</property>
+		<property name="hibernate.c3p0.max_size">100</property>
+		<property name="hibernate.c3p0.timeout">200</property>
+		<property name="hibernate.c3p0.max_statement">50</property>
+		<property name="hibernate.c3p0.idle_test_period">150</property>
+		
+		<!-- Resource Mapping -->
+		<mapping class="com.codingraja.hibernate.domain.Customer"/>
+		
+	</session-factory>
+</hibernate-configuration>

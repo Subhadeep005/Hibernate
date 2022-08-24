@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:security="http://www.springframework.org/schema/security" 
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		   http://www.springframework.org/schema/beans/spring-beans.xsd
+		   http://www.springframework.org/schema/security  
+		   http://www.springframework.org/schema/security/spring-security-4.2.xsd" >
+		   
+	<security:http auto-config="true" use-expressions="true">
+			
+		<security:intercept-url pattern="/**" 
+								access="permitAll"/>
+		
+		<security:intercept-url pattern="/cart/init**" 
+								access="hasRole('ROLE_CUSTOMER')" />
+						
+		<security:form-login username-parameter="username" 
+							 password-parameter="password"
+							 authentication-failure-url="/login?error"
+							 login-page="/login" 
+							 default-target-url="/" />
+							 
+		<security:logout logout-url="/j_spring_security_logout"
+						 logout-success-url="/login?logout" />
+	</security:http>  
+	
+	<security:authentication-manager alias="authenticationManager">
+		<security:authentication-provider user-service-ref="userDetailsService">
+			<security:password-encoder ref="passwordEncoder" />
+		</security:authentication-provider>
+	</security:authentication-manager>
+	
+	<!-- <bean id="daoAuthenticationProvider"
+		  class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
+		<property name="userDetailsService" ref="userDetailsService"/>
+		<property name="passwordEncoder" ref="passwordEncoder"/>
+	</bean> -->
+	
+	<bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
+	
+	<bean id="userDetailsService" class="com.codingraja.sunelectronics.security.service.impl.UserDetailsServiceImpl">
+		<constructor-arg ref="userService" />
+	</bean>
+	
+	<bean id="userService" class="com.codingraja.sunelectronics.core.service.impl.UserServiceImpl">
+		<constructor-arg ref="userDao" />
+	</bean>
+	
+</beans>

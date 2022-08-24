@@ -1,0 +1,14 @@
+
+hsquid:S1161":Add the "@Override" annotation above this method signature(‹¨―ΏH£¦RMAJORZ
+CODE_SMELL
+esquid:S1989."(Add a "try/catch" block for "parseLong".(ΩΟ›ώÿÿÿÿ8ώ†™ό‚,H›¦RMINORZVULNERABILITY
+Ysquid:S1989!"(Add a "try/catch" block for "parseLong".(®‘ΕH¦RMINORZVULNERABILITY
+lsquid:S1698("9Use the "equals" method if value comparison was intended.(ο―¨¤ϋÿÿÿÿ8ώ†™ό‚,H¦RMAJORZBUG
+\squid:S1989"&Add a "try/catch" block for "forward".(¬ΙλύÿÿÿÿH΅¦RMINORZVULNERABILITY
+msquid:S1161":Add the "@Override" annotation above this method signature(Οϋ©ΦϋÿÿÿÿH¦RMAJORZ
+CODE_SMELL
+\squid:S1989'"&Add a "try/catch" block for "forward".(¬ΙλύÿÿÿÿHΆ¦RMINORZVULNERABILITY
+\squid:S1989'"&Add a "try/catch" block for "forward".(¬ΙλύÿÿÿÿH¦RMINORZVULNERABILITY
+\squid:S1989"&Add a "try/catch" block for "forward".(¬ΙλύÿÿÿÿH ¦RMINORZVULNERABILITY
+csquid:S1989*"&Add a "try/catch" block for "forward".(¬Ιλύÿÿÿÿ8Χΰ²”ƒ,H¨¦RMINORZVULNERABILITY
+csquid:S1989*"&Add a "try/catch" block for "forward".(¬Ιλύÿÿÿÿ8Χΰ²”ƒ,H©¦RMINORZVULNERABILITY

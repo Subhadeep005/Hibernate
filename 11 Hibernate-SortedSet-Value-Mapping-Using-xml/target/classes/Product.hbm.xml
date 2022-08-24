@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+    
+<hibernate-mapping>
+	<class name="com.codingraja.hibernate.domain.Product" table="PRODUCT_MASTER3">
+		<id name="id" column="prod_id">
+			<generator class="identity" />
+		</id>
+		<property name="name" column="prod_fname" />
+		<property name="model" column="prod_model" />
+		<property name="brand" column="brand" />
+		<property name="price" column="price" />
+		<set name="colors" table="product3_colors" cascade="all">
+				<key column="prod_id" not-null="true"/>
+				<element column="colors" type="string"/>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/23 Inheritance-Mapping-Single-Table-Per-Class-hiercheye-Using-xml/src/main/java/com/codingraja/hibernate/test/OpenNewAccount.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.codingraja.hibernate.test.OpenNewAccount"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="23 Inheritance-Mapping-Single-Table-Per-Class-hiercheye-Using-xml"/>
+</launchConfiguration>

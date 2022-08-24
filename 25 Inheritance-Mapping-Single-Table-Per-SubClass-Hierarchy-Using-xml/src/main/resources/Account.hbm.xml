@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.codingraja.hibernate.domain.Account"
+    				table="ACCOUNT_MASTER25" discriminator-value="ACC">
+    				<id column="ACC_NUMBER" name="accNo">
+    					<generator class="identity" />
+    				</id>
+    				<property name="balance" column="BALANCE"/>
+    				<property name="customerId" column="CUSTOMER_ID" />
+    				
+    				<!-- Mapping for Joined-subclass -->
+    				<joined-subclass name="com.codingraja.hibernate.domain.SavingAccount"
+    									table="SAVING_ACCOUNT_MASTER25">
+    									<key column="ACC_NUMBER"></key>
+    									<property name="interestRate" column="INTEREST_RATE" />
+    				</joined-subclass>
+    				<!-- Mapping for subclass -->
+    				<joined-subclass name="com.codingraja.hibernate.domain.CurrentAccount"
+    									table="CURRENT_ACCOUNT_MASTER25">
+    									<key column="ACC_NUMBER"></key>
+    									<property name="mab" column="MAB" />
+    									<property name="maxTxn" column="MAX_TXN_LIMIT" />
+    				</joined-subclass>
+    				<!-- Mapping for subclass -->
+    				<joined-subclass name="com.codingraja.hibernate.domain.LoanAccount"
+    									table="LOAN_ACCOUNT_MASTER25">
+    									<key column="ACC_NUMBER"></key>
+    									<property name="interestRate" column="INTEREST_RATE" />
+    									<property name="emi" column="EMI" />
+    									<property name="outStdAmount" column="OUT_STD_AMOUNT" />
+    				</joined-subclass>
+    				</class>
+    </hibernate-mapping>

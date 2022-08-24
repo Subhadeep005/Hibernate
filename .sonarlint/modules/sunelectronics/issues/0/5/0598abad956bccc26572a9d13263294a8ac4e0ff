@@ -1,0 +1,6 @@
+
+osquid:S1854#"<Remove this useless assignment to local variable "customer".(›¸áÔùÿÿÿÿ8§®‰ÚÕ+HşïRMAJORZBUG
+gsquid:S1481#"-Remove this unused "customer" local variable.(›¸áÔùÿÿÿÿ8§®‰ÚÕ+HÿïRMINORZ
+CODE_SMELL
+qsquid:S1068"7Remove this unused "REDIRECT_LOGIN_PAGE" private field.(ãÔçñúÿÿÿÿ8§®‰ÚÕ+H‚ğRMAJORZ
+CODE_SMELL

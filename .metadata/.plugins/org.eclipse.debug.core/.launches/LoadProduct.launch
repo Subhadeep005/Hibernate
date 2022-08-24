@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Hibernate-CRUD-Operation/src/main/java/com/program/hibernate/test/LoadProduct.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.program.hibernate.test.LoadProduct"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Hibernate-CRUD-Operation"/>
+</launchConfiguration>

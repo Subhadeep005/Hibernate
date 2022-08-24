@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="x" value="443"/>
+		<item key="y" value="10"/>
+		<item key="height" value="531"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\34-Servlet-With-Hibernate"/>
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\sunelectronics"/>
+			<item value="C:\Users\SUBHADEEP\git\spring-web-mvc\sunelectronics"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\34-Servlet-With-Hibernate"/>
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\32-Hibernate-Second-Level-Cache\src\main\java\com\codingraja\hibernate\test\GetCustomer1.java"/>
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\30-Hibernate-Criteria-Criterion-Restrictions-And-Projection"/>
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\20 Hibernate-One-To-Many-Bidirectional-Association-Using-Join-Column-And-Annotation\src\main\java\com\codingraja\hibernate\domain\Customer.java"/>
+			<item value="G:\Program\Sunglowsys\JAVA 8\Hibernate\first-hibernate-application\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.codingraja.Servlet_With_Hibernate"/>
+			<item value="com.codingraja.Test"/>
+			<item value="com.codingraja._Servlet_With_Hibernate"/>
+			<item value="com.codingraja._Hibernate_Connection_Pooling_Using_C3P0"/>
+			<item value="com.codingraja._Hibernate_Second_Level_Cache"/>
+			<item value="com.codingraja._Hibernate_First_Level_Cache"/>
+			<item value="com.codingraja._Hibernate_Criteria_Criterion_Restrictions_And_Projection"/>
+			<item value="com.codingraja.Hibernate_Query_Language"/>
+			<item value="com.codingraja.Inheritance_Mapping_Single_Table_Per_Class_hiercheye"/>
+			<item value="com.codingraja.Hibernate_Many_To_Many_Unidirectional_Association"/>
+		</list>
+		<list key="groupId">
+			<item value="com.codingraja"/>
+		</list>
+		<list key="artifactId">
+			<item value="Servlet-With-Hibernate"/>
+			<item value="Test"/>
+			<item value="34-Servlet-With-Hibernate"/>
+			<item value="33-Hibernate-Connection-Pooling-Using-C3P0"/>
+			<item value="32-Hibernate-Second-Level-Cache"/>
+			<item value="31-Hibernate-First-Level-Cache"/>
+			<item value="30-Hibernate-Criteria-Criterion-Restrictions-And-Projection"/>
+			<item value="Hibernate-Query-Language"/>
+			<item value="Inheritance-Mapping-Single-Table-Per-Class-hiercheye"/>
+			<item value="Hibernate-Many-To-Many-Unidirectional-Association"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

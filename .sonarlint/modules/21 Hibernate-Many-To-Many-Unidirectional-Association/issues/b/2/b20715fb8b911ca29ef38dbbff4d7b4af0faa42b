@@ -1,0 +1,10 @@
+
+Qsquid:S2129"Remove this "Long" constructor(ÎˆœÍÿÿÿÿÿHÐŠRMAJORZ
+CODE_SMELL
+h
+squid:S106"";Replace this usage of System.out or System.err by a logger.(³åÌ¤HÑŠRMAJORZ
+CODE_SMELL
+hsquid:S1118":Add a private constructor to hide the implicit public one.(“æ¬ªHÒŠRMAJORZ
+CODE_SMELL
+Qsquid:S2129"Remove this "Long" constructor(Í÷ýÒüÿÿÿÿHÓŠRMAJORZ
+CODE_SMELL

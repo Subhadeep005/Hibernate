@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.codingraja.hibernate.domain.Account"
+    				table="ACCOUNT_MASTER27">
+    				<id column="ACC_NUMBER" name="accNo">
+    					<generator class="increment" />
+    				</id>
+    				<property name="balance" column="BALANCE"/>
+    				<property name="customerId" column="CUSTOMER_ID" />
+    				
+    				<!-- Mapping for union-subclass -->
+    				<union-subclass name="com.codingraja.hibernate.domain.SavingAccount"
+    												table="SAVING_ACCOUNT_MASTER27">
+    									<property name="interestRate" column="INTEREST_RATE" />
+    				</union-subclass>
+    				<!-- Mapping for union-subclass -->
+    				<union-subclass name="com.codingraja.hibernate.domain.CurrentAccount"
+    									table="CURRENT_ACCOUNT_MASTER27">
+    									<property name="mab" column="MAB" />
+    									<property name="maxTxn" column="MAX_TXN_LIMIT" />
+    				</union-subclass>
+    				<!-- Mapping for union-subclass -->
+    				<union-subclass name="com.codingraja.hibernate.domain.LoanAccount"
+    									table="LOAN_ACCOUNT_MASTER27">
+    									<property name="interestRate" column="INTEREST_RATE" />
+    									<property name="emi" column="EMI" />
+    									<property name="outStdAmount" column="OUT_STD_AMOUNT" />
+    				</union-subclass>
+    				</class>
+    </hibernate-mapping>

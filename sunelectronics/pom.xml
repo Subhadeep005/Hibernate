@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.codingraja</groupId>
+  <artifactId>sunelectronics</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>sunelectronics</name>
+  <url>http://www.codingraja.com</url>
+  
+  <properties>
+  	<servlet.version>3.1.0</servlet.version>
+  	<jsp.version>2.1.1</jsp.version>
+  	<jstl.version>1.2</jstl.version>
+  	<spring.version>4.3.5.RELEASE</spring.version>
+  	<spring.security.version>4.2.0.RELEASE</spring.security.version>
+  	<javax.validation.version>1.1.0.Final</javax.validation.version>
+  	<hibernate.validator.version>5.1.0.Final</hibernate.validator.version>
+  	<hibernate.version>5.1.0.Final</hibernate.version>
+  	<commons.dbcp.version>1.4</commons.dbcp.version>
+  	<mysql.connector.version>5.1.6</mysql.connector.version>
+  	<log4j.version>1.2.17</log4j.version>
+  	<fasterxml.jackson.version>2.5.3</fasterxml.jackson.version>
+  </properties>
+  
+  <dependencies>
+  	<!-- J2EE Dependencies -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>${servlet.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>${jsp.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>${jstl.version}</version>
+    </dependency>
+    
+    <!-- Spring Framework Dependencies -->
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-core</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-context</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-aop</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-expression</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-web</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-webmvc</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-orm</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-tx</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    
+    <!-- Spring Security Framework Dependencies -->
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-core</artifactId>
+    	<version>${spring.security.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-config</artifactId>
+    	<version>${spring.security.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-web</artifactId>
+    	<version>${spring.security.version}</version>
+    </dependency>
+    
+    <!-- Spring Mail API -->
+    <dependency>
+    <groupId>org.springframework.integration</groupId>
+    <artifactId>spring-integration-mail</artifactId>
+    <version>${spring.version}</version>
+</dependency>
+    
+    
+    <!-- Hibernate Framework Dependencies -->
+    <dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>${hibernate.version}</version>
+    </dependency>
+    
+    <!-- Validation API's JSR-303 and Hibernate Validator -->
+    <dependency>
+    	<groupId>javax.validation</groupId>
+    	<artifactId>validation-api</artifactId>
+    	<version>${javax.validation.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-validator</artifactId>
+    	<version>${hibernate.validator.version}</version>
+    </dependency>
+    
+    <!-- Apache commons-dbcp -->
+    <dependency>
+    	<groupId>commons-dbcp</groupId>
+    	<artifactId>commons-dbcp</artifactId>
+    	<version>${commons.dbcp.version}</version>
+    </dependency>
+    
+    <!-- MySQL Database Connector -->
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>${mysql.connector.version}</version>
+    </dependency>
+    
+    <!-- Log4j -->
+    <dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>${log4j.version}</version>
+	</dependency>
+	
+	<!-- Fasterxml Jackson -->
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-core</artifactId>
+		<version>${fasterxml.jackson.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>${fasterxml.jackson.version}</version>
+	</dependency>
+    
+  </dependencies>
+  <build>
+    <finalName>sunelectronics</finalName>
+  </build>
+</project>

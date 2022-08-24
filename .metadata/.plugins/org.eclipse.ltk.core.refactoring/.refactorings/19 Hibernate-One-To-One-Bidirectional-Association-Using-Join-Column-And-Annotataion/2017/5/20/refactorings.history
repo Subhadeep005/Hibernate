@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.codingraja.hibernate.test&apos; to &apos;29 Hibernate-Query-Language/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;19 Hibernate-One-To-One-Bidirectional-Association-Using-Join-Column-And-Annotataion&apos;&#x0D;&#x0A;- Destination element: &apos;29 Hibernate-Query-Language/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;19 Hibernate-One-To-One-Bidirectional-Association-Using-Join-Column-And-Annotataion/src/main/java/com.codingraja.hibernate.test&apos;" description="Copy package" destination="=29 Hibernate-Query-Language/src\/main\/java" element1="/src\/main\/java&lt;com.codingraja.hibernate.test" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1494740705105" version="1.0"/>
+</session>

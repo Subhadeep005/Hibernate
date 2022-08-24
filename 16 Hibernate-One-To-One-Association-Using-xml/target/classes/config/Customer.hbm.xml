@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+    
+<hibernate-mapping>
+	<class name="com.codingraja.hibernate.domain.Customer" table="CUSTOMER_MASTER_16">
+		<id name="id" column="cust_id">
+			<generator class="identity" />
+		</id>
+		<property name="fname" column="cust_fname" />
+		<property name="lname" column="cust_lname" />
+		<property name="email" column="email" />
+		<property name="mobile" column="Mobile" />
+		<one-to-one name="address" cascade="all" foreign-key="id" />
+	</class>
+</hibernate-mapping>

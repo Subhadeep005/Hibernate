@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Hibernate-Query-Language&apos; to &apos;29 Hibernate-Query-Language&apos;" description="Rename resource &apos;Hibernate-Query-Language&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Hibernate-Query-Language" name="29 Hibernate-Query-Language" stamp="1494737834405" updateReferences="true"/>
+</session>
